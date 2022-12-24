@@ -1,5 +1,6 @@
 
 import './App.css';
+import Slider from './Slider/Slider';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <h1 className="text-3xl font-bold underline">
       Hello world!
     </h1>
+    <Slider></Slider>
     </div>
   );
 }
